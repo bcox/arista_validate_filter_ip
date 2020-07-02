@@ -7,8 +7,8 @@ The script “validate_filter_ip.py” will ping a device once per second* and w
 
 
 ### Daemonize the script
-```
 To have the system start the script automatically on startup:
+```
 daemon auto_monitor_filter_10_2_3_201
   exec /mnt/flash/validate_filter_ip.py 10.2.3.201
   no shutdown
